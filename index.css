@@ -1,0 +1,673 @@
+body {
+    font-family: Arial, sans-serif;
+    scrollbar-width: 0;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:768px) {
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .nav-items>p {
+        font-size: 12px;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homepage-logo>img {
+    height: 50px;
+    width: 50px;
+}
+
+.homepage-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.company-name {
+    font-weight: bold;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.nav-items>p {
+    margin-right: 15px;
+}
+
+.nav-items>button {
+    margin-right: 10px;
+}
+
+.book-app {
+    background-color: rgb(0, 74, 173);
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 10px 10px;
+    font-size: 6px;
+}
+
+hr {
+    border: 2px solid red;
+    width: 80px;
+    height: 0px;
+    transform: rotate(90deg);
+}
+
+.hr-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section 1 */
+.section-1 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.homepage-info {
+    font-size: 50px;
+}
+
+.homepage-left-side-part {
+    width: 90%;
+    padding-left: 10%;
+}
+
+.homepage-right-side-part {
+    width: 10%;
+}
+
+.book-appointment {
+    background-color: rgb(0, 74, 173);
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.section-1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 93%;
+    height: 100%;
+    background-image: url("image1.png");
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.section-1 * {
+    position: relative;
+    z-index: 1;
+}
+
+.section-1>h1 {
+    font-weight: 300;
+    font-size: 50px;
+}
+
+span {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* section 2 */
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.info {
+    margin-bottom: 10%;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.part-2 {
+    display: flex;
+}
+
+.part-2-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.more-on {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(217, 212, 212);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    background: transparent;
+}
+
+.bold-para {
+    font-weight: bold;
+}
+
+.copy-right {
+    font-size: 12px;
+}
+
+@media screen and (max-width:768px) {
+    .info {
+        font-size: 30px;
+    }
+
+    .part-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* section-3 */
+.section-3 {
+    background-image: url("Spacio TechTonics Consultancy V21.png");
+    height: 650px;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+
+.nav-arrows {
+    padding-top: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-arrows>h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.head {
+    font-size: 45px;
+}
+
+.section-3>p {
+    font-size: 12px;
+}
+
+/* section 4 */
+.section-4 {
+    background-color: rgb(241, 231, 231);
+    padding: 20px;
+}
+
+.top-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.left-side-part {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side-part {
+    width: 40%;
+}
+
+.right-side-part>img {
+    height: auto;
+    width: 100%;
+}
+
+.info-card {
+    width: 70%;
+    box-shadow: 10px 10px 5px 5px white;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.each-card {
+    padding: 5px;
+}
+
+.company-info {
+    font-size: 10px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section 5 */
+.section-5 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.latest-work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info5 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.image1 {
+    width: 50%;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.image2 {
+    width: 40%;
+    border-radius: 30px;
+}
+
+.latest-img-container {
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .latest-img-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image1 {
+        width: 100%;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+
+    .image2 {
+        width: 80%;
+        border-radius: 30px;
+    }
+
+    .info-card {
+        width: 170%;
+    }
+}
+
+.locations {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* section 6 */
+.section-6 {
+    margin: 5%;
+}
+
+.arrow {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.linkedin-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin-card {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.card-with-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin-card>svg {
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+}
+
+.dates {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+@media screen and (max-width:768px) {
+    .linkedin-card {
+        height: 100px;
+        width: 100px;
+    }
+
+    .card-with-info>p {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dates>p {
+        font-size: 10px;
+    }
+
+    .section-7 {
+        padding-bottom: 20px;
+    }
+}
+
+/* section 7 */
+.section-7 {
+    background-image: url('Spacio TechTonics Consultancy V21.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    margin-top: 50px;
+    position: relative;
+}
+
+.span-white {
+    color: white;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    padding: 20px 40px 0px;
+
+}
+
+.bottom-nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-nav-items p {
+    color: white;
+    padding-right: 20px;
+}
+
+.bottom-hamburger {
+    color: white;
+}
+
+.seven-sec-container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+.email {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+.seven-copy-right {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0px;
+    left: 600px;
+}
+
+.eight-head {
+    font-size: 48px;
+}
+
+.icons {
+    color: white;
+    font-size: 34px;
+    padding-left: 22px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.signup-button {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    width: 150px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+@media screen and (max-width:768px) {
+    .section-7 {
+        height: 100%;
+    }
+
+    .seven-sec-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* footer section */
+
+.footer-name {
+    position: relative;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+}
+
+.copy--right {
+    color: white;
+    text-align: start;
+    font-size: 0.8rem;
+}
+
+.footer {
+    background-color: rgb(44, 42, 42);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer-column p {
+    font-size: 10px;
+    color: grey;
+    margin: 5px 0;
+}
+
+.callus-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.call {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.mobile-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .mobile-footer {
+        display: flex;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* optional content */
+.site-info {
+    background-color: black;
+    color: white;
+}
+
+.terms-info {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.terms-info>button {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#card {
+    color: black;
+}
+
+.card {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.card-header {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.card-header h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#closeCardBtn,
+#reportCardBtn {
+    background: rgb(227, 223, 223);
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+#reportCardBtn {
+    background-color: rgb(227, 223, 223);
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
